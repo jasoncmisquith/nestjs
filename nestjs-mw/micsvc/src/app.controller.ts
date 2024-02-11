@@ -17,8 +17,5 @@ export class UserController {
     console.log(data, context);
     return data;
   }
-  @MessagePattern({ cmd: 'sum' })
-  accumulate(data: number[]): number {
-    return (data || []).reduce((a, b) => a + b);
-  }
+
 }

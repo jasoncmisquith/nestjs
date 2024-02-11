@@ -3,7 +3,7 @@ import { UserService } from './user.service';
 import { CreateUserDto } from '../../../micsvc/src/user/dto/create-user.dto';
 import { CoreInterceptor } from 'src/core/core.interceptor';
 
-@UseInterceptors(CoreInterceptor)
+// @UseInterceptors(CoreInterceptor)
 /**
  * whatever the string pass in controller decorator it will be appended to
  * API URL. to call any API from this controller you need to add prefix which is
